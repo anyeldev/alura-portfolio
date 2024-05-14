@@ -16,7 +16,6 @@
 
 body {
   background-color: var(--color-bac-primary);
-  width: 80%;
   margin: auto;
 }
 
@@ -24,9 +23,10 @@ body {
 
 header {
   height: 88px;
+  width: 80%;
   display: grid;
   align-content: center;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
 }
 
 nav {
@@ -67,6 +67,8 @@ nav a:hover {
 /* PROFILE */
 
 .profile__container {
+  width: 80%;
+  margin: 0 auto 32px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -100,4 +102,73 @@ nav a:hover {
   align-items: center;
   text-decoration: none;
   color: var(--color-secondary);
+}
+
+/* ABOUT */
+
+.about__container {
+  background-color: var(--color-bac-secondary);
+  width: 100%;
+}
+
+.about {
+  margin: 0 auto 32px;
+  padding: 64px 0;
+  width: 80%;
+}
+
+.about h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--color-secondary);
+  margin-bottom: 16px;
+}
+
+.about p {
+  width: 65%;
+  color: var(--color-secondary);
+  margin-bottom: 16px;
+}
+
+/* SKILLS and HOBBIES */
+
+.skills-hobbies__container {
+  width: 80%;
+  margin: 0 auto 32px;
+}
+
+.skills__hobbies h3 {
+  color: var(--color-secondary);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.skills__hobbies ul {
+  list-style: none;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 16px;
+}
+
+.skills__hobbies li {
+  width: 174px;
+  height: 174px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 16px 16px;
+}
+
+.skills__hobbies p {
+  font-weight: bold;
+  color: var(--color-secondary);
+  margin-top: 8px;
+}
+
+.items {
+  margin-bottom: 88px;
 }
