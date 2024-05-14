@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -13,7 +13,7 @@
   <body>
     <header>
       <nav>
-        <div>
+        <div class="logo__container">
           <img src="img/logo.svg" alt="logo_icon" />
           <h3>Fulana de Tal</h3>
         </div>
@@ -29,20 +29,18 @@
     </header>
 
     <main>
-      <section>
+      <section class="profile__container">
         <div>
-          <div>
-            <img src="img/profile.png" alt="profile" />
-          </div>
-          <div>
-            <h2>Hola, mi nombre es Fulana de Tal y construyo paginas webs</h2>
-            <h3>
-              Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando
-              del proyecto Oracle ONE en Alura Latam.
-            </h3>
-          </div>
+          <img src="img/profile.png" alt="profile" />
+        </div>
+        <div>
+          <h2>Hola, mi nombre es Fulana de Tal y construyo paginas webs</h2>
+          <h3>
+            Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando
+            del proyecto Oracle ONE en Alura Latam.
+          </h3>
           <!-- prettier-ignore -->
-          <ul>
+          <ul class="menu__links">
             <li><a href="#">Github<img src="img/link.svg" alt="link_icon"></a></li>
             <li><a href="#">Linkedin<img src="img/link.svg" alt="link_icon"></a></li>
             <li><a href="#">Instagram<img src="img/link.svg" alt="link_icon"></a></li>
