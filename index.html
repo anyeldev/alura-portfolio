@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Challenge - Portafolio</title>
   </head>
@@ -39,7 +36,6 @@
             Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando
             del proyecto Oracle ONE en Alura Latam.
           </h3>
-          <!-- prettier-ignore -->
           <ul class="menu__links">
             <li><a href="#">Github<img src="img/link.svg" alt="link_icon"></a></li>
             <li><a href="#">Linkedin<img src="img/link.svg" alt="link_icon"></a></li>
@@ -208,37 +204,39 @@
         </div>
       </section>
 
-      <section>
-        <div>
+      <section class="contact__container">
+        <div class="contact">
           <img src="img/contact.jpg" alt="contact_img" />
           <div>
-            <h3>Contacto</h3>
-            <p>¿Quieres contactarme?</p>
-            <p>
-              Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
-            </p>
-          </div>
+            <div class="contact__descript">
+              <h3>Contacto</h3>
+              <p>¿Quieres contactarme?</p>
+              <p>
+                Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+              </p>
+            </div>
 
-          <!-- prettier-ignore -->
-          <form>
-            <div>
-              <input type="text" name="name" id="name_input" required/>
-              <label for="name_input">Nombre</label>
-            </div>
-            <div>
-              <input type="email" name="email" id="email_input" required/>
-              <label for="email_input">E-mail</label>
-            </div>
-            <div>
-              <input type="text" name="issue" id="issue_input" required/>
-              <label for="issue_input">Nombre</label>
-            </div>
-            <div>
-              <textarea name="text_area" id="text_area" cols="30" rows="10" required></textarea>
-              <label for="text_area">Nombre</label>
-            </div>
-            <button type="submit">Enviar mensaje</button>
-          </form>
+            <!-- prettier-ignore -->
+            <form>
+              <div class="input__box">
+                <input type="text" name="name" class="inputAnimation" placeholder="" required/>
+                <label for="text_input">Nombre</label>
+              </div>
+              <div class="input__box">
+                <input type="email" name="email" class="inputAnimation" placeholder="" required/>
+                <label for="email_input">E-mail</label>
+              </div>
+              <div class="input__box">
+                <input type="text" name="issue" class="inputAnimation" placeholder="" required/>
+                <label for="issue_input">Asunto</label>
+              </div>
+              <div class="area-input__box">
+                <textarea name="text_area" class="inputAnimation" placeholder="" required></textarea>
+                <label for="text_area">Mensaje</label>
+              </div> 
+              <button type="submit" class="submit__button">Enviar mensaje</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
