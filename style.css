@@ -36,6 +36,10 @@ nav {
   padding: auto;
 }
 
+nav li:last-child a {
+  font-weight: bold;
+}
+
 .logo__container {
   display: flex;
   align-items: center;
