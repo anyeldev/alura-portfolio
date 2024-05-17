@@ -1,10 +1,4 @@
-/* @media (max-width: 1440px) {
-  footer {
-    background-color: red;
-  }
-} */
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   header {
     margin: 0;
     padding: 0 32px;
@@ -21,7 +15,7 @@
   .training,
   .exp,
   .contact {
-    padding: 32px 32px 32px 32px;
+    padding: 32px;
     margin: 0 auto;
     width: 100%;
   }
@@ -49,5 +43,108 @@
   .about p {
     width: 100%;
     font-size: 14px;
+  }
+
+  /* SKILLS and HOBBIES */
+
+  .skills__hobbies h3 {
+    font-size: 22px;
+  }
+
+  .skills__hobbies h3:nth-of-type(2) {
+    margin-top: 64px;
+  }
+
+  .skills__hobbies ul {
+    flex-wrap: wrap;
+  }
+
+  .skills__hobbies li {
+    width: 219px;
+    height: 118px;
+  }
+
+  .items {
+    margin: 0;
+  }
+
+  /* TRAINING */
+
+  .training h3 {
+    font-size: 22px;
+  }
+
+  .training__img {
+    width: 219px;
+    height: 118px;
+  }
+  .training__img img {
+    height: 70px;
+  }
+
+  .training p {
+    font-size: 16px;
+  }
+
+  .training span {
+    font-size: 14px;
+  }
+
+  /* EXPERIENCE */
+
+  .exp h3 {
+    font-size: 22px;
+  }
+
+  .exp__items {
+    display: block;
+  }
+
+  .exp__items img {
+    width: 100%;
+  }
+
+  .repo__button,
+  .demo__button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .exp__items p {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  .exp__items span {
+    font-size: 14px;
+  }
+
+  /* CONTACT */
+  .contact__container {
+    padding: 0;
+  }
+
+  .contact__descript h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .contact__descript p {
+    font-size: 16px;
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .contact img {
+    display: none;
+  }
+
+  .contact button {
+    width: 133px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
   }
 }
