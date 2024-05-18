@@ -5,7 +5,7 @@
     width: 100%;
   }
 
-  header li:not(:last-child) a {
+  .item_sect {
     display: none;
   }
 
@@ -146,5 +146,60 @@
     height: 40px;
     font-size: 14px;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    /* margin: 0; */
+    padding: 0 16px;
+  }
+
+  nav li:last-child a {
+    font-weight: 400;
+  }
+
+  .profile__container,
+  .about,
+  .skills-hobbies__container,
+  .training,
+  .exp,
+  .contact {
+    padding: 32px 16px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* PROFILE */
+
+  .profile__container {
+    display: block;
+  }
+
+  .menu__links {
+    gap: 8px;
+  }
+
+  .profile__img {
+    margin-bottom: 16px;
+  }
+
+  /* SKILLS and HOBBIES */
+
+  .skills__hobbies li {
+    width: 156px;
+  }
+
+  /* TRAINING */
+
+  .training__items {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .training__img {
+    width: 296px;
   }
 }

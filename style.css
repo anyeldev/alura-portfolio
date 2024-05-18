@@ -106,6 +106,7 @@ nav a:hover {
   align-items: center;
   text-decoration: none;
   color: var(--color-secondary);
+  font-weight: 600;
 }
 
 /* ABOUT */
